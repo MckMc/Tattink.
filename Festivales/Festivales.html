@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,6 +27,9 @@
                     <a href="../Tattoos/Tattoos.html">Tattoos</a>
                 </li>
                 <li>
+                    <a href="../Artistas/Artistas.html">Artistas</a>
+                </li>
+                <li>
                     <a href="../Festivales/Festivales.html">Festivales</a>
                 </li>
                 <li>
@@ -36,6 +40,44 @@
     </header>
     <main>
         <h1>Festivales</h1>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active carrusel">
+                        <img src="./Multimedia/pexels-brett-sayles-2087995.jpg" alt="Los Angeles" width="100%" height="700em">
+                        <div class="carousel-caption">
+                                <h3>Los Angeles</h3>
+                                <p>We had such a great time in LA!</p>
+                        </div>   
+                    </div>
+                    <div class="carousel-item carrusel">
+                        <img src="./Multimedia/pexels-cottonbro-5235789.jpg" alt="Chicago" width="100%" height="700em">
+                        <div class="carousel-caption">
+                            <h3>Chicago</h3>
+                            <p>Thank you, Chicago!</p>
+                        </div>   
+                    </div>
+                    <div id="carousel__tres" class="carousel-item carrusel">
+                        <img src="Multimedia/pexels-sayantan-kundu-345608-951001.jpg" alt="New York" width="100%" height="700em">
+                        <div class="carousel-caption">
+                            <h3>New York</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="selectores">
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <i class="fa-solid fa-angles-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <i class="fa-solid fa-angles-right"></i>
+            </a>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="texto-footer">
@@ -57,6 +99,9 @@
             </a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     <script src="../js.js"></script>
 </body>
 </html>
