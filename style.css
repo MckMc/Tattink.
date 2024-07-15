@@ -446,3 +446,17 @@ header a{
     font-size: 15px;
 }
 }
+
+.contacto__form{
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(175, 121, 4);
+    border-radius: 1em;
+    text-align: center;
+}
+.contacto__form input{
+    margin-bottom: 5px ;
+}
