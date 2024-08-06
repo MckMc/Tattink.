@@ -157,7 +157,7 @@ h2 {
 }
 .desarrollo h2 {
   padding: 10px;
-  padding-left: 15px;
+  margin: auto;
 }
 
 .caja {
@@ -181,8 +181,7 @@ h2 {
   grid-gap: 40px;
   padding: 20px;
 }
-
-.items {
+#tattoo__grilla .items {
   background-image: url(../Multimedia/Tattoos/ai-generated-8479122.png);
   background-size: cover;
   background-position: center;
@@ -190,79 +189,67 @@ h2 {
   filter: grayscale(50%);
   border-radius: 5px;
 }
-.items:hover {
+#tattoo__grilla .items:hover {
   filter: grayscale(0%);
   border: 5px solid rgb(255, 174, 0);
   transition: 0.5s;
   border-radius: 10px;
 }
-
-.item1 {
+#tattoo__grilla .item1 {
   background-image: url(../Multimedia/Tattoos/arm-3420963.jpg);
   grid-column: 1/3;
   grid-row: 1/3;
 }
-
-.item2 {
+#tattoo__grilla .item2 {
   background-image: url(../Multimedia/Tattoos/happy-2607217.jpg);
   grid-column: 4/4;
   grid-row: 1/1;
 }
-
-.item3 {
+#tattoo__grilla .item3 {
   grid-column: 3/4;
   grid-row: 1/3;
 }
-
-.item4 {
+#tattoo__grilla .item4 {
   background-image: url(../Multimedia/Tattoos/man-tattooing-7533875.jpg);
   grid-column: 4/4;
   grid-row: 2/4;
 }
-
-.item5 {
+#tattoo__grilla .item5 {
   background-image: url(../Multimedia/Tattoos/tattoo-1057451.jpg);
   grid-column: 1/3;
   grid-row: 3/5;
 }
-
-.item6 {
+#tattoo__grilla .item6 {
   background-image: url(../Multimedia/Tattoos/tattoo-1893141.jpg);
   grid-column: 3/5;
   grid-row: 4/6;
 }
-
-.item7 {
+#tattoo__grilla .item7 {
   background-image: url(../Multimedia/Tattoos/tattoo-2894318.jpg);
   grid-column: 3/3;
   grid-row: 3/3;
 }
-
-.item8 {
+#tattoo__grilla .item8 {
   background-image: url(../Multimedia/Tattoos/tattoo-4500425.jpg);
   grid-column: 1/1;
   grid-row: 7/8;
 }
-
-.item9 {
+#tattoo__grilla .item9 {
   background-image: url(../Multimedia/Tattoos/tattoo-6757466.jpg);
   grid-column: 2/3;
   grid-row: 5/6;
 }
-
-.item10 {
+#tattoo__grilla .item10 {
   background-image: url(../Multimedia/Tattoos/tattoo-702133.jpg);
   grid-column: 4/4;
   grid-row: 6/8;
 }
-
-.item11 {
+#tattoo__grilla .item11 {
   background-image: url(../Multimedia/Tattoos/tatuaje-4827736.jpg);
   grid-column: 2/4;
   grid-row: 6/8;
 }
-
-.item12 {
+#tattoo__grilla .item12 {
   background-image: url(../Multimedia/Tattoos/woman-7202448.jpg);
   grid-column: 1/1;
   grid-row: 5/7;
@@ -397,7 +384,6 @@ h2 {
   border: 3px solid rgb(175, 121, 4);
   border-radius: 1em;
   text-align: center;
-  margin-bottom: 30px;
 }
 .contacto__form input {
   margin-bottom: 5px;
@@ -418,9 +404,10 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 3px;
 }
 .contacto__contacto .contacto__contacto--con i, .contacto__contacto .contacto__contacto--con a, .contacto__contacto .contacto__contacto--con p {
-  padding: 5px;
+  padding: 3px;
 }
 .contacto__contacto .contacto__contacto--con a {
   color: #035c09;
@@ -454,6 +441,39 @@ h2 {
   color: rgb(175, 121, 4);
   background-color: #000;
   transition: 0.5s;
+}
+
+main h1 {
+  text-shadow: 0px 0px 5px #000;
+}
+main #inicio__main {
+  background-image: url(../Multimedia/san-francisco-7008147_1920.jpg);
+  background-size: cover;
+  padding-bottom: 20px;
+}
+main #tattoo__main {
+  background-image: url(../Multimedia/italy-7708552_1920.jpg);
+  background-size: cover;
+}
+main #artistas__main {
+  background-image: url(../Multimedia/cyclist-5832393_1920.jpg);
+  background-size: cover;
+}
+main #festivales__main {
+  background-image: url(../Multimedia/chinatown-4582511_1920.jpg);
+  background-size: cover;
+  padding-bottom: 20px;
+}
+main #festivales__main h1 {
+  text-shadow: 0px 0px 7px #000;
+}
+main #contacto__main {
+  background-image: url(../Multimedia/leaves-6975462_1920.png);
+  background-size: cover;
+  padding-bottom: 20px;
+}
+main #contacto__main h1 {
+  text-shadow: 0px 0px 7px #000;
 }
 
 @media only screen and (max-width: 700px) {
@@ -518,8 +538,11 @@ h2 {
     grid-row: 6/8;
   }
   .desarrollo h2 {
-    font-size: 33px;
+    font-size: 25px;
     font-weight: 600;
+  }
+  .desarrollo p {
+    font-size: 12px;
   }
   .artistas__presentacion-carta {
     width: 25em;
@@ -530,7 +553,7 @@ h2 {
     font-size: 17px;
   }
   header a {
-    font-size: 17px;
+    font-size: 16px;
   }
   header li {
     padding: 5px;
@@ -542,10 +565,39 @@ h2 {
     font-size: 13px;
     margin: 3px;
   }
+  #demo {
+    width: 95%;
+    height: auto;
+  }
+  #demo .carousel-item {
+    width: 100%;
+    height: 30em;
+  }
+  #demo .carousel-item img {
+    height: 30em;
+  }
+  .carousel-caption h3 {
+    font-size: 25px;
+  }
+  .carousel-caption p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .artistas__descripcion-desarrollo {
+    width: 65%;
+    font-size: 10px;
+  }
+  .artistas__descripcion h2 {
+    font-size: 40px;
+  }
 }
 @media only screen and (max-width: 480px) {
   header .logo {
     font-size: 17px;
+  }
+  header a {
+    font-size: 10px;
   }
   footer p {
     font-size: 13px;
@@ -555,19 +607,18 @@ h2 {
   }
   h1 {
     font-size: 30px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
   }
   .descripcion {
     width: 90%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
+    margin-bottom: 10px;
   }
   .descripcion h2 {
     font-size: 20px;
-    margin: auto;
   }
-  .descripcion .caja {
+  .descripcion p {
     font-size: 10px;
   }
   .artistas__presentacion-carta {
@@ -590,6 +641,9 @@ h2 {
     padding-bottom: 40px;
     text-shadow: #000 0px 0px 5px;
   }
+  .artistas__presentacion-desarrollo h2 {
+    font-size: 20px;
+  }
   .artistas__presentacion-desarrollo p {
     width: 100%;
     margin: auto;
@@ -607,6 +661,19 @@ h2 {
   #demo .carousel-item img {
     height: 22em;
   }
+  .contacto__contacto {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contacto__contacto .contacto__contacto--con {
+    font-size: 12px;
+  }
+  .contacto__form {
+    font-size: 12px;
+  }
   .carousel-caption h3 {
     font-size: 20px;
   }
@@ -614,50 +681,9 @@ h2 {
     font-size: 10px;
   }
   .de-num2 a {
-    font-size: 5px;
+    font-size: 10px;
     margin: 2px;
   }
-}
-@media only screen and (max-width: 550px) {
-  .artistas__descripcion-desarrollo {
-    width: 65%;
-  }
-  .artistas__descripcion h2 {
-    font-size: 40px;
-  }
-}
-main h1 {
-  text-shadow: 0px 0px 5px #000;
-}
-main #inicio__main {
-  background-image: url(../Multimedia/san-francisco-7008147_1920.jpg);
-  background-size: cover;
-}
-main #tattoo__main {
-  background-image: url(../Multimedia/italy-7708552_1920.jpg);
-  background-size: cover;
-}
-main #artistas__main {
-  background-image: url(../Multimedia/cyclist-5832393_1920.jpg);
-  background-size: cover;
-}
-main #festivales__main {
-  background-image: url(../Multimedia/chinatown-4582511_1920.jpg);
-  background-size: cover;
-}
-main #festivales__main h1 {
-  text-shadow: 0px 0px 7px #000;
-}
-main #contacto__main {
-  background-image: url(../Multimedia/leaves-6975462_1920.png);
-  background-size: cover;
-}
-main #contacto__main h1 {
-  text-shadow: 0px 0px 7px #000;
-}
-
-.invisible {
-  visibility: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
