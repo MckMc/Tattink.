@@ -1,0 +1,7 @@
+[
+    {"id": 1, "nombre":"Maquina Rotativa","precio": 50000, "imagen": "../Multimedia/Productos/Maquina Rotativa.jpg"},
+    {"id": 1, "nombre":"Maquina Pen","precio": 76000, "imagen":"../Multimedia/Productos/Maquina pen.webp"},
+    {"id": 1, "nombre":"Maquina Hibrida","precio": 53000, "imagen":"../Multimedia/Productos/hibrida.webp"},
+    {"id": 1, "nombre":"Tintas Nam x 10","precio": 50000, "imagen":"../Multimedia/Productos/tintas nam.jpg"},
+    {"id": 1, "nombre":"Kit Pen","precio": 150000, "imagen":"../Multimedia/Productos/kit pen.avif"}
+]

@@ -475,6 +475,18 @@ main #contacto__main {
 main #contacto__main h1 {
   text-shadow: 0px 0px 7px #000;
 }
+#contenedorPrecios p{
+  color: black;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(245, 245, 220, 0.77);
+  border: rgb(175, 121, 4) 2px solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 
 @media only screen and (max-width: 700px) {
   .descripcion {

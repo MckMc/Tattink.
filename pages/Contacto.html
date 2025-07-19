@@ -6,8 +6,8 @@
     <meta name="description" content="Comunicate y cointactate con nosotros">
     <meta name="keywords" content="Tatuajes, Quienes somos, tatuadores, contactate, contacto">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="../reset css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../resetcss/reset.css">
+    <link rel="stylesheet" href="../Scss/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Tattink</title>
 </head>
@@ -37,13 +37,23 @@
                 <li>
                     <a href="Contacto.html">Contacto</a>
                 </li>
+                <li>
+                    <a href="Tienda.html">Tienda</a>
+                </li>
             </ul>
         </div>
     </header>
     <main>
         <div id="contacto__main">
-        
         <h1>Contacto</h1>
+        <h2>Coloque el numero del instrumento al cual desea ver su precio</h2>
+        <form id="formulario">
+        <input type="number" placeholder="Elija el numero del instrumento">
+        <input type="submit">
+        </form>
+        <div id="contenedorPrecios">
+            <h3 >Precios</h3>
+        </div>
         <div class="contacto">
             <div class="contacto__contacto">
                 <div class="contacto__contacto--con">
@@ -79,6 +89,7 @@
             </form>
         </div>
     </div>
+
     </main>
     <footer>
         <div class="texto-footer">
@@ -103,6 +114,6 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    <script src="js.js"></script>
+    <script src="../Javascript/script.js"></script>
 </body>
 </html>
